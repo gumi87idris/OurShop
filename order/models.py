@@ -38,3 +38,5 @@ class OrderItem(models.Model):
         return self.quantity * self.product.price
 
 
+
+

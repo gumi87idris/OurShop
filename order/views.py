@@ -44,3 +44,5 @@ def order_history_detail(request, order_id):
     order_items = order.items.all()
     # order_items = OrderItem.objects.filter(order=order_id)
     return render(request, 'history_detail.html', locals())
+
+
